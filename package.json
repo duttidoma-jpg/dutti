@@ -1,0 +1,11 @@
+{
+  "name": "dutti",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "build": "pnpm -r build",
+    "dev:api": "pnpm -F api dev",
+    "dev:web": "pnpm -F web dev",
+    "test": "pnpm -r test"
+  }
+}
