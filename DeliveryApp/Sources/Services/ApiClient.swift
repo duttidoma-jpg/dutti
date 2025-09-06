@@ -1,6 +1,12 @@
 import Foundation
 
-final class ApiClient {
+protocol ApiClientProtocol {
+    var baseURL: URL? { get }
+    func get<T: Decodable>(_ path: String) async throws -> T
+    func post<T: Decodable, Body: Encodable>(_ path: String, body: Body) async throws -> T
+}
+
+final class ApiClient: ApiClientProtocol {
     static let shared = ApiClient()
     let baseURL: URL?
     var mockMode: Bool { baseURL == nil }
