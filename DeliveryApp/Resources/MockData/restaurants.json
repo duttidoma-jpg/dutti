@@ -1,0 +1,18 @@
+[
+  {
+    "id": "r1",
+    "name": "Пицца плюс",
+    "address": "ул. Центральная, 1",
+    "photoURL": "https://picsum.photos/200",
+    "etaMinutes": 30,
+    "openUntil": "23:00"
+  },
+  {
+    "id": "r2",
+    "name": "Суши мир",
+    "address": "пр. Мира, 5",
+    "photoURL": "https://picsum.photos/201",
+    "etaMinutes": 40,
+    "openUntil": "22:00"
+  }
+]

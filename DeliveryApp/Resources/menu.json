@@ -1,0 +1,5 @@
+[
+  { "id": "m1", "restaurantID": "r1", "title": "Маргарита", "price": 400, "photoURL": "https://picsum.photos/300" },
+  { "id": "m2", "restaurantID": "r1", "title": "Пепперони", "price": 450, "photoURL": "https://picsum.photos/301" },
+  { "id": "m3", "restaurantID": "r2", "title": "Филадельфия", "price": 500, "photoURL": "https://picsum.photos/302" }
+]
